@@ -52,6 +52,11 @@
             <version>${dropwizard.version}</version>
         </dependency>
         <dependency>
+                <groupId>org.eclipse.jetty.websocket</groupId>
+                <artifactId>javax-websocket-server-impl</artifactId>
+                <version>9.1.0.M0</version>
+        </dependency>
+        <dependency>
             <groupId>com.dcsquare</groupId>
             <artifactId>dropwizard-papertrail</artifactId>
             <version>1.1</version>
