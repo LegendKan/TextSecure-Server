@@ -242,7 +242,7 @@
     <repositories>
         <repository>
             <id>my-repository</id>
-            <url>https://raw.githubusercontent.com/LegendKan/maven-repo/master/repository</url>
+            <url>https://raw.github.com/LegendKan/maven-repo/master/repository/</url>
         </repository>
     </repositories>
 
