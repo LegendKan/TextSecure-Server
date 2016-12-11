@@ -106,6 +106,12 @@
             <artifactId>dropwizard-simpleauth</artifactId>
             <version>0.1.0</version>
         </dependency>
+             
+        <dependency>
+           <groupId>com.yunpian.sdk</groupId>
+           <artifactId>yunpian-java-sdk</artifactId>
+           <version>1.2.1</version>
+        </dependency>
 
         <dependency>
             <groupId>org.glassfish.jersey.test-framework.providers</groupId>
@@ -235,8 +241,8 @@
 
     <repositories>
         <repository>
-            <id>gcm-server-repository</id>
-            <url>https://raw.github.com/whispersystems/maven/master/gcm-server/releases/</url>
+            <id>my-repository</id>
+            <url>https://raw.github.com/LegendKan/maven-repo/master/repository</url>
         </repository>
     </repositories>
 
